@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7A245C524933A60001A5882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A245C424933A60001A5882 /* AppDelegate.swift */; };
+		A7A245C724933A60001A5882 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A245C624933A60001A5882 /* SceneDelegate.swift */; };
+		A7A245C924933A60001A5882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A245C824933A60001A5882 /* ViewController.swift */; };
+		A7A245CC24933A60001A5882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A245CA24933A60001A5882 /* Main.storyboard */; };
+		A7A245CE24933A62001A5882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A245CD24933A62001A5882 /* Assets.xcassets */; };
+		A7A245D124933A62001A5882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A245CF24933A62001A5882 /* LaunchScreen.storyboard */; };
+		A7A245ED24933B32001A5882 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245DA24933B32001A5882 /* Poppins-ExtraLight.ttf */; };
+		A7A245EE24933B32001A5882 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245DB24933B32001A5882 /* Poppins-ThinItalic.ttf */; };
+		A7A245EF24933B32001A5882 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245DC24933B32001A5882 /* Poppins-ExtraLightItalic.ttf */; };
+		A7A245F024933B32001A5882 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245DD24933B32001A5882 /* Poppins-BoldItalic.ttf */; };
+		A7A245F124933B32001A5882 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245DE24933B32001A5882 /* Poppins-Light.ttf */; };
+		A7A245F224933B32001A5882 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245DF24933B32001A5882 /* Poppins-Medium.ttf */; };
+		A7A245F324933B32001A5882 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245E024933B32001A5882 /* Poppins-SemiBoldItalic.ttf */; };
+		A7A245F424933B32001A5882 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245E124933B32001A5882 /* Poppins-ExtraBoldItalic.ttf */; };
+		A7A245F524933B32001A5882 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245E224933B32001A5882 /* Poppins-ExtraBold.ttf */; };
+		A7A245F624933B32001A5882 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245E324933B32001A5882 /* Poppins-BlackItalic.ttf */; };
+		A7A245F724933B32001A5882 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = A7A245E424933B32001A5882 /* OFL.txt */; };
+		A7A245F824933B32001A5882 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245E524933B32001A5882 /* Poppins-Regular.ttf */; };
+		A7A245F924933B32001A5882 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245E624933B32001A5882 /* Poppins-LightItalic.ttf */; };
+		A7A245FA24933B32001A5882 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245E724933B32001A5882 /* Poppins-Bold.ttf */; };
+		A7A245FB24933B32001A5882 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245E824933B32001A5882 /* Poppins-Black.ttf */; };
+		A7A245FC24933B32001A5882 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245E924933B32001A5882 /* Poppins-Thin.ttf */; };
+		A7A245FD24933B32001A5882 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245EA24933B32001A5882 /* Poppins-SemiBold.ttf */; };
+		A7A245FE24933B32001A5882 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245EB24933B32001A5882 /* Poppins-Italic.ttf */; };
+		A7A245FF24933B32001A5882 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A245EC24933B32001A5882 /* Poppins-MediumItalic.ttf */; };
+		A7A2460124933FAC001A5882 /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2460024933FAC001A5882 /* OTPTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7A245C124933A60001A5882 /* MyOTPSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOTPSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A245C424933A60001A5882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7A245C624933A60001A5882 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A7A245C824933A60001A5882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7A245CB24933A60001A5882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7A245CD24933A62001A5882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7A245D024933A62001A5882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7A245D224933A62001A5882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A245DA24933B32001A5882 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A7A245DB24933B32001A5882 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A7A245DC24933B32001A5882 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		A7A245DD24933B32001A5882 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A7A245DE24933B32001A5882 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		A7A245DF24933B32001A5882 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		A7A245E024933B32001A5882 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		A7A245E124933B32001A5882 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		A7A245E224933B32001A5882 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A7A245E324933B32001A5882 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A7A245E424933B32001A5882 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		A7A245E524933B32001A5882 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		A7A245E624933B32001A5882 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		A7A245E724933B32001A5882 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		A7A245E824933B32001A5882 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		A7A245E924933B32001A5882 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		A7A245EA24933B32001A5882 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		A7A245EB24933B32001A5882 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		A7A245EC24933B32001A5882 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A7A2460024933FAC001A5882 /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A245BE24933A60001A5882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A73A255C2496554800DC1E82 /* Support File */ = {
+			isa = PBXGroup;
+			children = (
+				A7A2460024933FAC001A5882 /* OTPTextField.swift */,
+			);
+			path = "Support File";
+			sourceTree = "<group>";
+		};
+		A7A245B824933A60001A5882 = {
+			isa = PBXGroup;
+			children = (
+				A7A245C324933A60001A5882 /* MyOTPSample */,
+				A7A245C224933A60001A5882 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A245C224933A60001A5882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A245C124933A60001A5882 /* MyOTPSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A245C324933A60001A5882 /* MyOTPSample */ = {
+			isa = PBXGroup;
+			children = (
+				A73A255C2496554800DC1E82 /* Support File */,
+				A7A245D824933B18001A5882 /* Font */,
+				A7A245C424933A60001A5882 /* AppDelegate.swift */,
+				A7A245C624933A60001A5882 /* SceneDelegate.swift */,
+				A7A245C824933A60001A5882 /* ViewController.swift */,
+				A7A245CA24933A60001A5882 /* Main.storyboard */,
+				A7A245CD24933A62001A5882 /* Assets.xcassets */,
+				A7A245CF24933A62001A5882 /* LaunchScreen.storyboard */,
+				A7A245D224933A62001A5882 /* Info.plist */,
+			);
+			path = MyOTPSample;
+			sourceTree = "<group>";
+		};
+		A7A245D824933B18001A5882 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				A7A245D924933B32001A5882 /* Poppins */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		A7A245D924933B32001A5882 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				A7A245DA24933B32001A5882 /* Poppins-ExtraLight.ttf */,
+				A7A245DB24933B32001A5882 /* Poppins-ThinItalic.ttf */,
+				A7A245DC24933B32001A5882 /* Poppins-ExtraLightItalic.ttf */,
+				A7A245DD24933B32001A5882 /* Poppins-BoldItalic.ttf */,
+				A7A245DE24933B32001A5882 /* Poppins-Light.ttf */,
+				A7A245DF24933B32001A5882 /* Poppins-Medium.ttf */,
+				A7A245E024933B32001A5882 /* Poppins-SemiBoldItalic.ttf */,
+				A7A245E124933B32001A5882 /* Poppins-ExtraBoldItalic.ttf */,
+				A7A245E224933B32001A5882 /* Poppins-ExtraBold.ttf */,
+				A7A245E324933B32001A5882 /* Poppins-BlackItalic.ttf */,
+				A7A245E424933B32001A5882 /* OFL.txt */,
+				A7A245E524933B32001A5882 /* Poppins-Regular.ttf */,
+				A7A245E624933B32001A5882 /* Poppins-LightItalic.ttf */,
+				A7A245E724933B32001A5882 /* Poppins-Bold.ttf */,
+				A7A245E824933B32001A5882 /* Poppins-Black.ttf */,
+				A7A245E924933B32001A5882 /* Poppins-Thin.ttf */,
+				A7A245EA24933B32001A5882 /* Poppins-SemiBold.ttf */,
+				A7A245EB24933B32001A5882 /* Poppins-Italic.ttf */,
+				A7A245EC24933B32001A5882 /* Poppins-MediumItalic.ttf */,
+			);
+			name = Poppins;
+			path = ../../../../../../Downloads/Poppins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A245C024933A60001A5882 /* MyOTPSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A245D524933A62001A5882 /* Build configuration list for PBXNativeTarget "MyOTPSample" */;
+			buildPhases = (
+				A7A245BD24933A60001A5882 /* Sources */,
+				A7A245BE24933A60001A5882 /* Frameworks */,
+				A7A245BF24933A60001A5882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyOTPSample;
+			productName = MyOTPSample;
+			productReference = A7A245C124933A60001A5882 /* MyOTPSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A245B924933A60001A5882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Fikri Adriansa Yudha";
+				TargetAttributes = {
+					A7A245C024933A60001A5882 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = A7A245BC24933A60001A5882 /* Build configuration list for PBXProject "MyOTPSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7A245B824933A60001A5882;
+			productRefGroup = A7A245C224933A60001A5882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A245C024933A60001A5882 /* MyOTPSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A245BF24933A60001A5882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A245FC24933B32001A5882 /* Poppins-Thin.ttf in Resources */,
+				A7A245FF24933B32001A5882 /* Poppins-MediumItalic.ttf in Resources */,
+				A7A245F724933B32001A5882 /* OFL.txt in Resources */,
+				A7A245EF24933B32001A5882 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				A7A245F624933B32001A5882 /* Poppins-BlackItalic.ttf in Resources */,
+				A7A245ED24933B32001A5882 /* Poppins-ExtraLight.ttf in Resources */,
+				A7A245FD24933B32001A5882 /* Poppins-SemiBold.ttf in Resources */,
+				A7A245F024933B32001A5882 /* Poppins-BoldItalic.ttf in Resources */,
+				A7A245F124933B32001A5882 /* Poppins-Light.ttf in Resources */,
+				A7A245FB24933B32001A5882 /* Poppins-Black.ttf in Resources */,
+				A7A245FE24933B32001A5882 /* Poppins-Italic.ttf in Resources */,
+				A7A245F524933B32001A5882 /* Poppins-ExtraBold.ttf in Resources */,
+				A7A245F924933B32001A5882 /* Poppins-LightItalic.ttf in Resources */,
+				A7A245D124933A62001A5882 /* LaunchScreen.storyboard in Resources */,
+				A7A245F324933B32001A5882 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				A7A245F824933B32001A5882 /* Poppins-Regular.ttf in Resources */,
+				A7A245F424933B32001A5882 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				A7A245FA24933B32001A5882 /* Poppins-Bold.ttf in Resources */,
+				A7A245EE24933B32001A5882 /* Poppins-ThinItalic.ttf in Resources */,
+				A7A245F224933B32001A5882 /* Poppins-Medium.ttf in Resources */,
+				A7A245CE24933A62001A5882 /* Assets.xcassets in Resources */,
+				A7A245CC24933A60001A5882 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A245BD24933A60001A5882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A245C924933A60001A5882 /* ViewController.swift in Sources */,
+				A7A2460124933FAC001A5882 /* OTPTextField.swift in Sources */,
+				A7A245C524933A60001A5882 /* AppDelegate.swift in Sources */,
+				A7A245C724933A60001A5882 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7A245CA24933A60001A5882 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A245CB24933A60001A5882 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7A245CF24933A62001A5882 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A245D024933A62001A5882 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7A245D324933A62001A5882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7A245D424933A62001A5882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7A245D624933A62001A5882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SY534J33X8;
+				INFOPLIST_FILE = MyOTPSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = krayz.MyOTPSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7A245D724933A62001A5882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SY534J33X8;
+				INFOPLIST_FILE = MyOTPSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = krayz.MyOTPSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A245BC24933A60001A5882 /* Build configuration list for PBXProject "MyOTPSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A245D324933A62001A5882 /* Debug */,
+				A7A245D424933A62001A5882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A245D524933A62001A5882 /* Build configuration list for PBXNativeTarget "MyOTPSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A245D624933A62001A5882 /* Debug */,
+				A7A245D724933A62001A5882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7A245B924933A60001A5882 /* Project object */;
+}
